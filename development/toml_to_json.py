@@ -3,7 +3,8 @@ import os
 import tomllib
 
 url = "https://88401b10e19d4d7994c47cf7035b1eab.us-central1.gcp.cloud.es.io:9243/api/detection_engine/rules"
-api_key = "aXJVODBKRUJQRkNkLVlyTHFkcDE6S0RTNjlHdXpSMWU5eEc4Wm5NS3hRZw=="
+api_key = os.environ['ELASTIC_KEY']
+
 headers = {
     'Content-Type': 'application/json;charset=UTF-8',
     'kbn-xsrf': 'true',
@@ -12,7 +13,7 @@ headers = {
 
 data = ""
 
-for root, dirs, files in os.walk("converted_detections/"):
+for root, dirs, files in os.walk("detections/"):
     for file in files:
         data = "{\n"
         if file.endswith(".toml"):
