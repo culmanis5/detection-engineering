@@ -9,6 +9,11 @@
 
 | Alert | Date | Author | Risk Score | Severity |
 | --- | --- | --- | --- | --- |
+## Two Months Ago
+### Alerts
+
+| Alert | Date | Author | Risk Score | Severity |
+| --- | --- | --- | --- | --- |
 |PowerShell Invoke-WebRequest Downloading .BAT File|2024/09/07|['Manish Lamsal']|50|medium|
 |Data Archive for Potential Exfil|2024/09/07|['Manish Lamsal']|50|medium|
 |Potential MSF PowerShell Payload Observed|2024/09/07|['Manish Lamsal']|50|high|
@@ -19,8 +24,3 @@
 |PowerShell Execution via a BAT File|2024/09/07|['Manish Lamsal']|50|medium|
 |Suspicious File Written to Temp Directory|2024/09/07|['Manish Lamsal']|75|high|
 |Data Exfiltration Observed via FTP|2024/09/07|['Manish Lamsal']|75|high|
-## Two Months Ago
-### Alerts
-
-| Alert | Date | Author | Risk Score | Severity |
-| --- | --- | --- | --- | --- |
